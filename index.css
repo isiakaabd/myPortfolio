@@ -1,12 +1,11 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather+Sans&family=Roboto&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0;
     padding: 0;
-  
+    font-family: 'Roboto', sans-serif;;
     height: 100vh;
 }
 /* Nav Bar */
@@ -31,10 +30,23 @@ body{
   
 }
 
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;;
+}
+
+.remlad-icon{
+    color: #F28482;
+}
+
+#myself ,
+.skills{
+text-align:justify
+}
+
 .nav-item{
     display: flex;
     justify-content: space-evenly;
-    /* max-width: 120rem; */
+   
 
 }
 .nav-item {
@@ -203,8 +215,17 @@ border-radius: 8px;
     padding-top: 10rem;
 }
 
+.project-done {
+/* margin-bottom: 4px;
+text-decoration: underline;
+text-decoration-color: #F28482;
+text-decoration-skip-ink: 2px; */
+text-decoration-thickness: 4px;
+border-bottom: 4px solid #f28482;
+
+}
+
 .project-item{
-    /* width: 100%; */
     text-align: center;
     padding: 0;
     justify-content: center;
