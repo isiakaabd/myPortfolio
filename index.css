@@ -51,23 +51,29 @@ text-align:justify
 }
 .nav-item {
     padding-left: 0 !important;
+    margin-bottom: 0;
 }
 
 .nav-item li{
     padding: 0 1rem;
     list-style: none;
-    position: relative;
-    
+    position: relative;  
 }
 .nav-item li a, .remlad-icon{
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+}
+.nav-item li a{
+    color: #000000;
 }
 /* sticky for scrolling */
 .sticky{
     background-color: #000000 !important;
-    color: #ffff;
+    color: #ffff !important;
     z-index: 100;
+}
+.sticky .nav-item li a{
+    color: #ffff;
 }
 
 
@@ -79,7 +85,7 @@ text-align:justify
       display: block;
       height: .2em;
       background-color: #F28482;
-      bottom: -2rem;
+      bottom: -1.5rem;
     }
      li a:hover::after{
         width: 70%;
@@ -101,7 +107,7 @@ text-align:justify
     }
     .nav-item li a{
         
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .about_me{
         padding-top: 15rem;
@@ -216,10 +222,7 @@ border-radius: 8px;
 }
 
 .project-done {
-/* margin-bottom: 4px;
-text-decoration: underline;
-text-decoration-color: #F28482;
-text-decoration-skip-ink: 2px; */
+
 text-decoration-thickness: 4px;
 border-bottom: 4px solid #f28482;
 
