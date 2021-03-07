@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather+Sans&family=Roboto&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -85,7 +86,7 @@ text-align:justify
       display: block;
       height: .2em;
       background-color: #F28482;
-      bottom: -1.5rem;
+      bottom: -1rem;
     }
      li a:hover::after{
         width: 70%;
@@ -140,7 +141,6 @@ border-radius: 5px;
     margin-right: 50px;
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    /* animation: about 2s ease-in-out infinite alternate; */
     -webkit-transform-origin: 30% 0;
     transform-origin: 30% 0;
     -webkit-animation: about 4.5s ease-in-out alternate infinite;
@@ -175,12 +175,9 @@ border-radius: 5px;
     position: absolute;
     top:0 ;
     left: 50%;
-
     transform: translateX(-50%);
 }
 .image-container img{
-
-
 border-radius: 8px;
 }
 .image-container{
@@ -203,6 +200,7 @@ border-radius: 8px;
 
 .about-me-text ul li a{
     text-decoration: none;
+    color: #F28482;
 
 }
 

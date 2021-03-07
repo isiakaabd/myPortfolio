@@ -81,10 +81,10 @@ function getInfo(){
      skill9.innerHTML = 'GITHUB'
 
     //  medias
-    gmail.innerHTML = `<a href="mailto:isiakaabd@gmail.com">Gmail</a>`
-   linkedin.innerHTML = `<a href="https://www.linkedin.com/in/isiaka-abdulahi-1bb16514a/">Linkedin</a>`
-    twitter.innerHTML = `<a href="https://twitter.com/isiakaabd">Twitter</a>`
-    github.innerHTML = `<a href="https://www.github.com/isiakaabd">Github</a>`
+    gmail.innerHTML = `<a href="mailto:isiakaabd@gmail.com" target="_blank">Gmail</a>`
+   linkedin.innerHTML = `<a href="https://www.linkedin.com/in/isiaka-abdulahi-1bb16514a/" target="_blank">Linkedin</a>`
+    twitter.innerHTML = `<a href="https://twitter.com/isiakaabd" target="_blank">Twitter</a>`
+    github.innerHTML = `<a href="https://www.github.com/isiakaabd" target="_blank">Github</a>`
 animated_bg.forEach((bg) => bg.classList.remove("animated-bg"))
 animated_bg_text.forEach((bgs) => bgs.classList.remove("animated-bg-text"))
 
