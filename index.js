@@ -21,7 +21,7 @@ const twitter = document.getElementById("twitter");
 const github= document.getElementById("github");
 const gmail= document.getElementById("gmail");
 const linkedin= document.getElementById("linkedin");
-const letTalk= document.getElementById("lets Talk");
+const letTalk= document.getElementById("letsTalk");
 
 
 
@@ -65,7 +65,7 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 function getInfo(){
     imageContainer.innerHTML=`<img src="/project/ISIAKA.png" class="w-100" alt="Isiaka Abdulahi">`;
      AboutMe.innerText= "About Me";
-     letTalk.innerText= "Let's Talk";
+     letTalk.innerHTML= `<a href="/ABDULAHI ISIAKA.pdf" target="_blank" > HIRE ME </a>  <i class="fas fa-download"></i>`;
      skillset.innerText= "My Skillset"
    pin.innerHTML= ` <img src="https://previews.123rf.com/images/headoff/headoff1306/headoff130600011/20364438-a-colourful-3d-rendered-notice-board-pin-illustration.jpg" alt="pin">`  
    mySelf.innerText ="Hi! I'm  Isiaka Abdulahi. A Frontend Developer with a focus on building fast, robust, SEO optimized and optimized User Experiences. I believe in developing Interfaces which bring a smile."

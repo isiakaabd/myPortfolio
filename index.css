@@ -119,6 +119,15 @@ text-align:justify
 
 
   /* About Section */
+
+#letsTalk a{
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 1);
+    background-color: #ffff;
+    padding: 3px;
+    cursor: pointer;
+    
+}
 .about_me{
    padding-top: 8rem;
     margin-bottom: 0;
@@ -147,8 +156,7 @@ border-radius: 5px;
     animation: about 4.5s ease-in-out alternate infinite;
 
 }
-/* .about-sub-container{
-} */
+
 
 .about-right{
     padding-top: 4rem;
